@@ -33,6 +33,10 @@ Unlike Cloudflare, InfraLaunch is fully self-hosted — giving you full control 
 ---
 ## ⚙️ Prerequisites
 
+- ## 🔧 Required Setup
+
+Before running the script, make sure you have PowerDNS + MariaDB installed and configured.  
+Then create a `.env` file in the root of the project.
 - Ubuntu 22.04+ server (AWS EC2 works great)
 - Docker & Docker Compose
 - PowerDNS + MariaDB backend
