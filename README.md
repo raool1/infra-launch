@@ -99,9 +99,9 @@ ns2.yourdomain.com(ns2.raool.site)
 You can verify DNS using:
 
 ```bash
-dig domain.com +short
-dig www.domain.com +short
-dig NS domain.com +short
+dig yourdomain.com +short
+dig www.yourdomain.com +short
+dig NS yourdomain.com +short
 ```
 
 ---
